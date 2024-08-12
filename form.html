@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./form .css">
+</head>
+<body>
+    <form action="" id="userInfoForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required><br> <br>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" required><br><br>
+        <fieldset>
+            <legend>Age:</legend>
+            <input type="radio" id="ageUnder18" name="age" value="Under 18">
+            <label for="ageUnder18">Under 18</label><br><br>
+
+            <input type="radio" id="age18to35" name="age" value="18 to 35">
+            <label for="age18to35">18 to 35</label><br><br>
+
+            <input type="radio" id="age35plus" name="age" value="35+">
+            <label for="age35+">35+</label><br><br>
+        </fieldset>
+        <label for="contactMethod">Preffered Content Method</label>
+        <select name="" id="selectInput">
+            <option value="Option1">Option 1</option>
+            <option value="Option2">Option 2</option>
+            <option value="Option3">Option 3</option>
+        </select><br><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
